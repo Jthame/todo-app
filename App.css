@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  margin: 0px;
+}
+
+input {
+  height: 25px;
+  width: 300px;
+  border-width: 0;
+  background-color: rgb(41, 40, 62);
+}
+
+/* Night Display */
+
+.main-body-night {
+  height: 805px;
+  background-color: rgb(23, 22, 41);
+}
+
+.main-container-night {
+  background: url("./images/bg-desktop-dark.jpg") no-repeat;
+  background-position: top;
+  height: 500px;
+  width: 100%;
+  margin-top: -25px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-container-night {
+  width: 800px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  margin-top: -210px;
+  margin-bottom: 10px;
+}
+
+.header-night {
+  padding-right: 350px;
+  font-size: 40px;
+  color: white; 
+}
+
+.toggle-display-btn {
+  height: 50%;
+  width: 30px;
+  background: transparent;
+  /* background: url("./images/icon-moon.svg") no-repeat; */
+  border-width: 0px;
+}
+
+.toggle-display-btn :hover {
+  /* animation: grow 1s ease-in-out infinite; */
+  /* background-color: grey; */
+  transition: 0.5s all ease-in-out;
+  -webkit-transform: scale(1.2);
+}
+
+/* .moon-icon {
+  height: 100%;
+  width: 100%;
+} */
+
+.li-container-night {
+  height: 65px;
+  width: 550px;
+  background-color: rgb(41, 40, 62);
+  border-radius: 5px;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: start;
+  align-items: center;
+}
+
+.check-mock {
+  height: 30px;
+  width: 30px; 
+  margin: 0px 30px 0px 15px;
+  border-radius: 50%;
+  background: rgb(52, 48, 76);
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.check-mock-bg {
+  height: 85%; 
+  width: 85%;
+  border-radius: 50%;
+  margin-left: 0.5px;
+  background: rgb(41, 40, 62);
+}
+
+.list-container {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style:  none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.check {
+  height: 30px;
+  width: 30px; 
+  margin: 0px 30px 0px 15px;
+  border-radius: 50%;
+  border-width: 0px;
+  background: linear-gradient(135deg, rgb(88, 157, 253) 40%,rgb(233, 94, 252) 90%);
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.check-bg {
+  height: 96%; 
+  width: 30px;
+  margin: 0px -5px 0px -5px;
+  border-radius: 50%;
+  background: rgb(41, 40, 62);
+}
+
+.check-svg {
+  height: 90%;
+  width: 90%;
+  /* background: red; */
+}
+
+/* Day Display */
+
+.main-container-day {
+  background: url("./images/bg-desktop-light.jpg") no-repeat;
+  background-position: top;
+  height: 500px;
+  width: 100%;
+  margin-top: -25px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
